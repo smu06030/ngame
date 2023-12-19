@@ -9,7 +9,7 @@ import SuccessModal from "./components/Layout/SuccessModal";
 function App() {
   const mainCtx = useContext(MainContext);
 
-  const allSimilarityDataLength = JSON.parse(localStorage.getItem('allSimilarityData'))
+  // const allSimilarityDataLength = JSON.parse(localStorage.getItem('allSimilarityData'))
 
   return (
     <Container>
