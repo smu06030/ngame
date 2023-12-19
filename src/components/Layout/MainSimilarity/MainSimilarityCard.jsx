@@ -39,7 +39,7 @@ const Li = styled.li`
   box-sizing: border-box;
   transition: 0.3s ease-out;
 
-  &:hover {
+  &:hover, :active {
     border: 2px solid #2362c6;
     box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.25);
   }

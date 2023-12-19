@@ -71,7 +71,7 @@ const ModalContent = styled.div`
 
   & h1 {
     font-family: PretandardBold;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
     margin: 1rem 0;
