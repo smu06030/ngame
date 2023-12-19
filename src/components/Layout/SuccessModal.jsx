@@ -33,7 +33,7 @@ const SuccessModal = () => {
         <span onClick={handleCloseModal}>✕</span>
       </CloseButton>
       <ModalContent>
-        <h1>{modalContentTitle}</h1>
+        <p>{modalContentTitle}</p>
         <UserInfo>
           <UserCount>
             <span>횟수</span> <Odometer value={userInfoCount} />번
@@ -69,7 +69,7 @@ const ModalContent = styled.div`
   flex-direction: column;
   gap: 2rem;
 
-  & h1 {
+  & p {
     font-family: PretandardBold;
     font-size: 1.5rem;
     font-weight: 700;
