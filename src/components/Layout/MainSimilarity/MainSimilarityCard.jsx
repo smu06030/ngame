@@ -49,7 +49,7 @@ const Li = styled.li`
     height: 6rem;
     border: 1px solid #f1f1f5;
 
-    &:hover {
+    &:hover :active {
       border: 1px solid #2362c6;
       box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.25);
     }
