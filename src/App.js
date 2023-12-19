@@ -16,7 +16,7 @@ function App() {
       {mainCtx.showModal && <SuccessModal/>}
       {/* <SuccessModal/> */}
       <Header/>
-      {(mainCtx.inputValue !== '' || allSimilarityDataLength !== null) && <MainSimilarity/>}
+      <MainSimilarity/>
     </Container>
   );
 }

@@ -25,7 +25,7 @@ const Btn = styled.button`
   box-sizing: border-box;
   cursor: pointer;
 
-  &:hover{
+  &:hover, :active{
     background: #1a3053;
     color: #fff;
   }

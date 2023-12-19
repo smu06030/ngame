@@ -45,8 +45,9 @@ const Logo = styled.nav`
 `;
 
 const HeaderWrapImage = styled.div`
-  width: 100vw;
-  height: auto;
+  width: calc(100% + 2rem);
+  height: 20rem;
+  overflow: hidden;
   position: absolute;
   & img {
     z-index: 1;
